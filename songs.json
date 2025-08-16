@@ -1,0 +1,1076 @@
+[
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - ANOTHER HIM",
+        "filename": "AUDIO_ANOTHERHIM",
+        "motifs": ["Gaster's Theme"],
+        "dyk": [
+            "This is the first soundtrack to feature Gaster's Theme in DELTARUNE."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Beginning",
+        "filename": "mus_introcar",
+        "motifs": ["Don't Forget", "Once Upon a Time"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - School",
+        "filename": "mus_school",
+        "motifs": ["Don't Forget", "Snowdin", "Hometown"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Susie",
+        "filename": "s_neo",
+        "motifs": ["Susie"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - The Door",
+        "filename": "creepydoor",
+        "motifs": ["The Door"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Cliffs",
+        "filename": "creepylandscape",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - The Chase",
+        "filename": "creepychase",
+        "motifs": ["The Door"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - The Legend",
+        "filename": "legend",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Lancer",
+        "filename": "lancer",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Rude Buster",
+        "filename": "battle",
+        "motifs": ["Rude Buster"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Empty Town",
+        "filename": "castletown_empty",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Weird Birds",
+        "filename": "bird",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Field of Hopes and Dreams",
+        "filename": "field_of_hopes",
+        "motifs": ["Don't Forget", "Field of Hopes and Dreams"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Fanfare",
+        "filename": "fanfare",
+        "motifs": ["Fanfare"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Lantern",
+        "filename": "shop1",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - I'm Very Bad",
+        "filename": "lancer_susie",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Checker Dance",
+        "filename": "checkers",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Quiet Autumn",
+        "filename": "quiet_autumn",
+        "motifs": ["Quiet Autumn"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Scarlet Forest",
+        "filename": "forest",
+        "motifs": ["Don't Forget", "Field of Hopes and Dreams", "Quiet Autumn"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Thrash Machine",
+        "filename": "thrashmachine",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Vs. Lancer",
+        "filename": "lancerfight",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Basement",
+        "filename": "basement",
+        "motifs": ["Card Castle"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Imminent Death",
+        "filename": "tense",
+        "motifs": ["The Dark Truth"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Vs. Susie",
+        "filename": "vs_susie",
+        "motifs": ["The Dark Truth", "Susie"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Card Castle",
+        "filename": "card_castle",
+        "motifs": ["Card Castle", "Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Rouxls Kaard",
+        "filename": "ruruskaado",
+        "motifs": ["Rouxls Kaard"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - April 2012",
+        "filename": "april_2012",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Hip Shop",
+        "filename": "hip_shop",
+        "motifs": ["Hip Shop"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Gallery",
+        "filename": "GALLERY",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Chaos King",
+        "filename": "kingboss",
+        "motifs": ["The Legend", "Lancer", "Card Castle"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Darkness Falls",
+        "filename": "AUDIO_DARKNESS",
+        "motifs": ["Darkness Falls"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - The Circus",
+        "filename": "prejoker",
+        "motifs": ["Freedom"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - THE WORLD REVOLVING",
+        "filename": "joker",
+        "motifs": ["Don't Forget", "Freedom"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Friendship",
+        "filename": "friendship",
+        "motifs": ["Don't Forget", "Friendship"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - THE HOLY",
+        "filename": "THE_HOLY",
+        "motifs": ["THE HOLY"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Your Power",
+        "filename": "snd_usefountain",
+        "showfilename": true,
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - A Town Called Hometown",
+        "filename": "town",
+        "motifs": ["Don't Forget", "Hometown", "Snowdin"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - You Can Always Come Home",
+        "filename": "home",
+        "motifs": ["Don't Forget", "Once Upon a Time", "Home"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Don't Forget",
+        "filename": "dontforget",
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapter 1 Soundtrack - Before the Story",
+        "filename": "AUDIO_STORY",
+        "motifs": ["Once Upon a Time"]
+    },
+
+    
+    
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Faint Glow",
+        "filename": "menu",
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Girl Next Door",
+        "filename": "noelle_school",
+        "motifs": ["Girl Next Door (bassline melody)", "Lost Girl"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - My Castle Town",
+        "filename": "castletown",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Ohhhhohohoho!",
+        "filename": "queen_intro",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Queen",
+        "filename": "queen",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - A CYBER'S WORLD?",
+        "filename": "cyber",
+        "motifs": ["Cyber World"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - A Simple Diversion",
+        "filename": "boxing_game",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Almost To The Guys!",
+        "filename": "cyber_battle_prelude",
+        "motifs": ["Sweet Cap'n Cakes"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Cool Beat",
+        "filename": "music_guys_intro",
+        "motifs": ["Cool Beat"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - When I Get Mad I Dance Like This",
+        "filename": "music_guys",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - When I Get Happy I Dance Like This",
+        "filename": "cyber_battle_end",
+        "motifs": ["Sweet Cap'n Cakes", "Cool Beat"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Sound Studio",
+        "filename": "cyber_shop",
+        "motifs": ["Sweet Cap'n Cakes", "Cool Beat"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Berdly",
+        "filename": "berdly_theme",
+        "motifs": ["Berdly"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Smart Race",
+        "filename": "berdly_chase",
+        "motifs": ["Queen", "Berdly"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Faint Courage",
+        "filename": "AUDIO_DEFEAT",
+        "motifs": ["Darkness Falls"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - WELCOME TO THE CITY",
+        "filename": "cybercity",
+        "motifs": ["Cyber World"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Mini Studio",
+        "filename": "cyberhouse",
+        "motifs": ["Sweet Cap'n Cakes"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Holiday Studio",
+        "filename": "cybershop_christmas",
+        "motifs": ["Sweet Cap'n Cakes", "Cool Beat"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Cool Mixtape",
+        "filename": "queen_car_radio",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - HEY EVERY !",
+        "filename": "spamton_meeting_intro",
+        "motifs": ["HEY EVERY !"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Spamton",
+        "filename": "spamton_meeting",
+        "motifs": ["Spamton"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - NOW'S YOUR CHANCE TO BE A",
+        "filename": "spamton_battle",
+        "motifs": ["Spamton"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Elegant Entrance",
+        "filename": "mansion_entrance",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Bird of Misfortune",
+        "filename": "berdly_flashback",
+        "motifs": ["Berdly"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Pandora Palace",
+        "filename": "mansion",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - KEYGEN",
+        "filename": "mansion",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Acid Tunnel of Love",
+        "filename": "acid_tunnel",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - It's Pronounced \"Rules\"",
+        "filename": "rouxls_battle",
+        "motifs": ["Lancer", "Rouxls Kaard"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Lost Girl",
+        "filename": "noelle_normal",
+        "motifs": ["Lost Girl"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Ferris Wheel",
+        "filename": "noelle_ferriswheel",
+        "motifs": ["Lost Girl"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Attack of the Killer Queen",
+        "filename": "queen_boss",
+        "motifs": ["Queen", "Berdly"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Giga Size",
+        "filename": "giant_queen_appears",
+        "motifs": ["Queen"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Powers Combined",
+        "filename": "gigaqueen_pre",
+        "motifs": ["Powers Combined"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Knock You Down !!",
+        "filename": "boxing_boss",
+        "showfilename": true,
+        "motifs": ["Queen", "Berdly", "Powers Combined"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - The Dark Truth",
+        "filename": "the_dark_truth",
+        "showfilename": true,
+        "motifs": ["Don't Forget", "The Dark Truth"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Digital Roots",
+        "filename": "spamton_basement",
+        "showfilename": true,
+        "motifs": ["Digital Roots"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Deal Gone Wrong",
+        "filename": "spamton_neo_meeting",
+        "showfilename": true,
+        "motifs": ["Spamton"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - BIG SHOT",
+        "filename": "spamton_neo_mix_ex_wip",
+        "motifs": ["Freedom", "Spamton", "Battle Against a True Hero"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - A Real Boy!",
+        "filename": "spamton_happy",
+        "motifs": ["HEY EVERY !"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Dialtone",
+        "filename": "spamton_neo_after",
+        "motifs": ["Freedom"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - sans.",
+        "filename": "muscle",
+        "motifs": ["Sans"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Chill Jailbreak Alarm To Study And Relax To",
+        "filename": "napsta_alarm",
+        "motifs": ["Ghost Fight"]
+    },
+    {
+        "title": "DELTARUNE Chapter 2 Soundtrack - Until Next Time",
+        "filename": "ch2_credits",
+        "showfilename": true,
+        "motifs": ["Don't Forget"]
+    },
+
+
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Flashback (Excerpt)",
+        "filename": "flashback_excerpt",
+        "motifs": ["THE HOLY", "Flashback"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Feature Presentation [FIX]",
+        "filename": "tennaIntroF1_compressed_28",
+        "motifs": ["Tenna", "HEY EVERY !", "Feature Presentation"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - And Now For Today's Sponsors…!",
+        "filename": "baci_perguina",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - MIKE, the BOARD, please!",
+        "filename": "ch3_tvtime",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Sandy Board",
+        "filename": "ch3_board1",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Adventure Board",
+        "filename": "board_zelda",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Query? [FIX]",
+        "filename": "none",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Quiz!",
+        "filename": "TV_GAME",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Dig! Dig! To The Center of the Earth!",
+        "filename": "board_lancer_dig",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Pushing Buddies",
+        "filename": "tvromance",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Ruder Buster",
+        "filename": "rudebuster_boss",
+        "motifs": ["Rude Buster"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Physical Challenge",
+        "filename": "minigame_kart",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Board Clear!",
+        "filename": "snd_nes_intro",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Welcome to the Green Room",
+        "filename": "greenroom_detune",
+        "motifs": ["Hip Shop"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Vapor Buster",
+        "filename": "battle_vapor",
+        "motifs": ["Rude Buster"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Paradise, Paradise",
+        "filename": "tenna_island",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Raft Ride",
+        "filename": "ch3_board2",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - SOUTH OF THE BORDER!!",
+        "filename": "ch3_south_of_the_border",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Sound Check",
+        "filename": "ch3-practice_song_combined",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Raise Up Your Bat",
+        "filename": "ch3_karaoke_full",
+        "motifs": ["Lost Girl", "Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - KING OF ROLYPOLY",
+        "filename": "trank",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Glowing Snow [!]",
+        "filename": "tv_results_screen",
+        "motifs": ["Uwa!! So"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Big City Board",
+        "filename": "ch3_board3",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Doom Board",
+        "filename": "board_4",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Metaphysical Challenge",
+        "filename": "board_4_challenge",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - TV WORLD",
+        "filename": "tv_world",
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - It's TV Time!",
+        "filename": "tenna_battle",
+        "showfilename": true,
+        "motifs": ["Tenna"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Hall of Fame",
+        "filename": "tv_hall_of_fame",
+        "motifs": ["Fanfare", "HEY EVERY !"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Breath",
+        "filename": "knight_appears",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Black Knife",
+        "filename": "knight",
+        "motifs": ["Burn in Despair!", "The Door"],
+        "dyk": [
+            "It actually has the Freedom Motif!",
+            "According to metadata inside of the game's music files, the song was composed in 2018, around the release of Chapter 1."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Crickets",
+        "filename": "night_ambiance",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Dump",
+        "filename": "tv_changingroom",
+        "motifs": ["The HOLY", "HEY EVERY !", "Hip Shop"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - SWORD",
+        "filename": "board_sword_music",
+        "motifs": ["Tenna"],
+        "dyk": [
+            "The track is slowed down by 10% or 1.65 semitones during the Island Board.",
+            "This track plays when you equip the SWORD in the original game in Chapter 3."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - NORTHERNLIGHT",
+        "filename": "northernlight",
+        "motifs": ["Flashback"],
+        "dyk": [
+            "This track's name and the text that it displays (GO TO NORTHERN LIGHT) guides the player to go up to progress the Sword Route."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - GLACEIR",
+        "filename": "glacier",
+        "motifs": [],
+        "dyk": [
+            "The typo in the track's title appears to be intentional, as it is alluding to one of Noelle Holiday's blog posts that became available during the Spamton Sweepstakes.",
+            "This track plays in the shelter room before Shadow Mantle Holder's boss fight at 7% pitch and 70% volume.",
+            "This track's name is listed in one of Noelle Holiday's blog posts, specifically \"Dragon Blazers - Glaceir\". This is possibly a reference to the Glaceir area from Brandish 3, which has the same misspelling in its name."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - BIT ROOTS",
+        "filename": "root_8bit",
+        "motifs": ["Digital Roots"],
+        "dyk": [
+            "The track itself and its name reference Digital Roots, the track which plays in the basement of Queen's Mansion."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - ERAM",
+        "filename": "nightmare_nes",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - BURNING EYES",
+        "filename": "nightmare_boss_heavy",
+        "motifs": ["Burn in Despair!"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Old wooden rafters",
+        "filename": "church_lw",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Hymn",
+        "filename": "church_hymn",
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Another day in hometown",
+        "filename": "town_day",
+        "motifs": ["Don't Forget", "Hometown", "Snowdin"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Friends",
+        "filename": "susie_diner",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Castle Funk",
+        "filename": "castle_funk_long",
+        "motifs": ["Don't Forget", "The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Knock You Down!! (Rhythm Ver.)",
+        "filename": "rhythm_knockdown_combined",
+        "motifs": ["Berdly", "Queen", "Powers Combined"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Gingerbread House",
+        "filename": "noelle_house_wip",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The distance between the two",
+        "filename": "noelle_distant",
+        "motifs": ["Lost Girl"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - C",
+        "filename": "carol_appeared",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - ATRIUM",
+        "filename": "darkchurch_intro",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Dark Sanctuary",
+        "filename": "church_wip",
+        "motifs": ["Dark Sanctuary", "Don't Forget", "The Legend"],
+        "dyk": [
+            "This track is one of three tracks that are labelled as work-in-progress in the filename, despite being the final version of the track. It shares this distinction with BIG SHOT and Gingerbread House.",
+            "This track is sung by Itoki Hana.",
+            "A slowed-down version of this track's intro (smallpiano_room.ogg) plays in the room with a piano located before the Dark Zone."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - From Now On (Battle 2)",
+        "filename": "ch4_battle",
+        "motifs": ["Don't Forget", "Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Gyaa Ha ha!",
+        "filename": "gerson_theme_intro",
+        "motifs": ["Ruins", "Gerson Boom", "Undyne"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Gyaa Ha ha!",
+        "filename": "gerson_theme_intro",
+        "motifs": ["Ruins", "Gerson Boom", "Undyne"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Fireplace",
+        "filename": "gerson_theme_intro",
+        "motifs": ["Ruins", "Undyne"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - A DARK ZONE",
+        "filename": "pumpkin_boss",
+        "showfilename": true,
+        "motifs": ["Spooktune"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Mysterious Ringing",
+        "filename": "bell_ambience",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Ever Higher",
+        "filename": "climb",
+        "motifs": ["Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Wise Words",
+        "filename": "gerson_defeated",
+        "motifs": ["Gerson Boom"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Piano that may not be played that well",
+        "filename": "kris_piano_lower",
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Hammer of Justice",
+        "filename": "ch4_extra_boss",
+        "motifs": ["Ruins", "Gerson Boom", "Undyne", "Freedom"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - 12am",
+        "filename": "church_lw_night",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The Second Sanctuary",
+        "filename": "second_church",
+        "motifs": ["The Second Sanctuary", "The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - 13am",
+        "filename": "tin_night",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The Third Sanctuary",
+        "filename": "church_zone3",
+        "motifs": ["The Second Sanctuary", "The Legend"],
+        "dyk": [
+            "At 4 minutes and 7 seconds long, The Third Sanctuary is the longest track on the DELTARUNE Chapters 3+4 OST, and the longest track in the game's soundtrack overall.",
+            "This song has the most time signature changes in the entire game's OST, and some of the most unique, using 11/8 and 10/8 for the majority of the song."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Dark Place",
+        "filename": "dark_place",
+        "motifs": ["Don't Forget", "The Dark Truth"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Heavy Footsteps",
+        "filename": "titan_pre",
+        "motifs": ["Titan"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Crumbling Tower",
+        "filename": "titan_tower",
+        "motifs": ["Titan", "Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - SPAWN",
+        "filename": "titan_spawn",
+        "motifs": ["Titan", "Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - GUARDIAN",
+        "filename": "titan_battle",
+        "motifs": ["Don't forget", "Titan", "Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Need a hand!?",
+        "filename": "oldman_helps_out",
+        "showfilename": true,
+        "motifs": ["Gerson Boom", "Undyne"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The place where it rained",
+        "filename": "rain",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The Ol' Jitterbug",
+        "filename": "jitterbug",
+        "motifs": ["Ghost Fight"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Neverending Night",
+        "filename": "ch4_credits",
+        "showfilename": true,
+        "motifs": ["Dark Sanctuary", "The Dark Truth"],
+        "dyk": [
+            "This track is sung by Itoki Hana.",
+            "A short segment of the track is also played during the Chapter 4 opening animation if no SAVE files are found, as \"ch4_first_intro.ogg\"."
+        ]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - The LEGEND...?",
+        "filename": "legend_altered",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - With Hope Crossed On Our Hearts",
+        "filename": "quiet_church",
+        "motifs": ["Don't Forget"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Volume Adjustment",
+        "filename": "mike_zone",
+        "motifs": ["Mike"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Catswing",
+        "filename": "mike",
+        "motifs": ["Tenna", "Spamton", "HEY EVERY !", "Mike"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - AIRWAVES",
+        "filename": "spamton_dance",
+        "motifs": ["Spamton", "Freedom"]
+    },
+    {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Concert for you",
+        "filename": "snd_pianonoise",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_sevenfour.ogg",
+        "filename": "kris_piano_sevenfour",
+        "motifs": [],
+        "dyk": [
+            "The track's name most likely references the time signature of the track (it being 7/4). An alternative theory is that it references the chapters that we hear this song in."
+        ]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_quiz.ogg",
+        "filename": "kris_piano_quiz",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_lancer_waltz.ogg",
+        "filename": "kris_piano_lancer_waltz",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_rouxls.ogg",
+        "filename": "kris_piano_rouxls",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_waitingroom.ogg",
+        "filename": "kris_piano_waitingroom",
+        "motifs": ["Hip Shop"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_shop.ogg",
+        "filename": "kris_piano_shop",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_last_prophecy.ogg",
+        "filename": "kris_piano_last_prophecy",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - kris_piano_prophecy.ogg",
+        "filename": "kris_piano_prophecy",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - alt_church_lobby.ogg",
+        "filename": "alt_church_lobby",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - baci_distort.ogg",
+        "filename": "baci_distort",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - board4_rhytm.ogg",
+        "filename": "board4_rhytm",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - board_ocean.ogg",
+        "filename": "board_ocean",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - ch4_first_intro.ogg",
+        "filename": "ch4_first_intro",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - chord.ogg",
+        "filename": "chord",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - coolbeat.ogg",
+        "filename": "coolbeat",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - findher.ogg",
+        "filename": "findher",
+        "motifs": ["Lost Girl"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - honksong.ogg",
+        "filename": "honksong",
+        "motifs": ["Your Best Friend", "NGAHH!!", "Dogsong", "Metal Crusher"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - lancer_annoying.ogg",
+        "filename": "lancer_annoying",
+        "motifs": ["Lancer"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - man.ogg",
+        "filename": "man",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - man_nes.ogg",
+        "filename": "man_nes",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - man_2.ogg",
+        "filename": "man_2",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - pianpian.ogg",
+        "filename": "pianpian",
+        "motifs": [],
+        "dyk": [
+            "This sound effect is used in Chapter 4 after Kris plays the piano to unlock the door leading to the Dark Fountain.",
+            "An alternate arrangement plays on deltarune.com/kriss_dreemurr_kris. It was revealed in 2022, before the release of Chapter 4."
+        ]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - smallpiano_room.ogg",
+        "filename": "smallpiano_room",
+        "motifs": ["Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - snd_act_perform.wav",
+        "filename": "snd_act_perform",
+        "motifs": ["Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - snd_act_perform_better.wav",
+        "filename": "snd_act_perform_better",
+        "motifs": ["Dark Sanctuary"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - snd_mike_reset.ogg",
+        "filename": "snd_mike_reset",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - snd_ralseising1.ogg",
+        "filename": "snd_ralseising1",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - snd_ralseising2.ogg",
+        "filename": "snd_ralseising2",
+        "motifs": ["The Legend"]
+    },
+    {
+        "title": "DELTARUNE Hidden Soundtracks - w.ogg",
+        "filename": "w",
+        "motifs": []
+    },
+
+    
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - snd_ominous.wav",
+        "filename": "snd_ominous",
+        "motifs": [],
+        "dyk": [
+            "This sound effect plays when the player progresses the Weird Route.",
+            "\"ominous_worse.ogg\" is its longer version."
+        ]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - snd_ominous_cancel.wav",
+        "filename": "snd_ominous_cancel",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - cybercity_alt.ogg",
+        "filename": "cybercity_alt", 
+        "motifs": ["Cyber World"],
+        "dyk": [
+            "After progressing the Weird Route, this track replaces \"WELCOME TO THE CITY\".",
+            "When played in-game, this track is sped-up with a higher pitch, more closely ressembling the original \"WELCOME TO THE CITY\"."
+        ]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - d.ogg",
+        "filename": "d",
+        "motifs": [],
+        "dyk": [
+            "This track, along with \"w.ogg\" is the second track that is only one symbol long.",
+            "This track can be accessed from deltarune.com/chapter5 by clicking on the number 2.",
+            "The file extension together with the filename spells \"dogg\"."
+        ]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - berdly_battle_heartbeat_true.ogg",
+        "filename": "berdly_battle_heartbeat_true",
+        "motifs": [],
+        "dyk": [
+            "This track replaces \"Smart Race\" in the Weird Route."
+        ]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - me.ogg",
+        "filename": "me",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - sinedrone_danger_high.ogg",
+        "filename": "sinedrone_danger_high",
+        "motifs": []
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - ominous_worse.ogg",
+        "filename": "ominous_worse",
+        "motifs": [],
+        "dyk": [
+            "This sound playing probably signals that you're locked into the Weird Route.",
+            "This sound is an extended version of \"snd_ominous\"."
+        ]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - tinnitus.ogg",
+        "filename": "tinnitus",
+        "motifs": []
+    }
+]

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+  color: #eee;
+}
+
+body {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  overflow-x: hidden;
+  gap: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@keyframes pan {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 120px 60px;
+  }
+}
+.motifs, .dyk {
+  font-size: 1.2rem;
+  mix-blend-mode: difference;
+}
+
+nav {
+  background: #555;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  top: 50%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+}
+nav ul {
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+nav ul li img {
+  height: 46px;
+  image-rendering: pixelated;
+  filter: brightness(0.5);
+}
+nav ul li p {
+  font-size: 1.8rem;
+  color: #888;
+}
+nav ul li.s img {
+  filter: brightness(1);
+}
+nav ul li.s p {
+  color: #fff;
+}
+
+main {
+  width: 100vw;
+  height: 40px;
+  font-size: 1.5rem;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  padding: 10px;
+  gap: 15px;
+  --progbar-lbar-clr: #37dd16;
+  --progbar-rbar-clr: #0870f8;
+  --progbar-dots-clr: #fff4;
+}
+main .progBar {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+  background-size: 100vw;
+  position: absolute;
+  left: 0;
+}
+main .overlay {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(var(--progbar-dots-clr) 0% 50%, transparent 50%);
+  background-size: 30px 30px;
+  background-repeat: repeat;
+  animation: pan 5s linear infinite;
+}
+main button, main .curSong {
+  mix-blend-mode: difference;
+  z-index: 3;
+}
+main .curSong {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+}
+main button {
+  height: 100%;
+  font-size: 1rem;
+  background: none;
+  color: #eee;
+  cursor: pointer;
+}
+
+input#volume {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+input#volume::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-backdrop-filter: invert(1);
+          backdrop-filter: invert(1);
+  height: 1px;
+}
+input#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  transform: translateY(-50%) rotate(45deg);
+}/*# sourceMappingURL=style.css.map */

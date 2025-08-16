@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3da799223a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Stream Overlay</title>
+</head>
+<body>
+    <!-- <nav id="categories">
+        <ul>
+            <li class="s">
+                <img src="images/Ch1.png" alt="">
+                <p>Chapter 1</p>
+            </li>
+            <li class="s">
+                <img src="images/Ch2.png" alt="">
+                <p>Chapter 2</p>
+            </li>
+            <li class="s">
+                <img src="images/Ch4.png" alt="">
+                <p>Chapters 3+4</p>
+            </li>
+            <li class="s">
+                <img src="images/Hidden.png" alt="">
+                <p>Hidden</p>
+            </li>
+            <li class="s">
+                <img src="images/Weird Route.png" alt="">
+                <p>Weird Route</p>
+            </li>
+        </ul>
+    </nav> -->
+    <p class="motifs"></p>
+    <p class="dyk"></p>
+    <main>
+        <input type="range" id="volume" min="0" max="1" step="any" value=".5">
+        <div class="progBar">
+            <div class="overlay"></div>
+        </div>
+        <button id="newSongBtn" type="button"><i class="fa-solid fa-forward"></i></button>
+        <button id="pauseBtn" type="button"><i class="fa-solid fa-pause"></i></button>
+        <p class="curSong">Nothing is playing right now...</p>
+        <button id="repeatBtn" type="button"><i class="fa-solid fa-arrows-rotate"></i></button>
+        <button id="optionsBtn" type="button"><i class="fa-solid fa-bars"></i></button>
+    </main>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

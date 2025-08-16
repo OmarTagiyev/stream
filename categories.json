@@ -1,0 +1,22 @@
+[
+    {
+        "img": "/images/Ch1.png",
+        "txt": "Chapter 1"
+    },
+    {
+        "img": "/images/Ch2.png",
+        "txt": "Chapter 2"
+    },
+    {
+        "img": "/images/Ch4.png",
+        "txt": "Chapter 3+4"
+    },
+    {
+        "img": "/images/Ch1.png",
+        "txt": "Hidden"
+    },
+    {
+        "img": "/images/Ch1.png",
+        "txt": "Weird Route"
+    }
+]
