@@ -60,8 +60,6 @@ function setSong(song) {
     else {
         dykDisplay.textContent = `Did you know: ${song["dyk"][0]}`;
     }
-
-    console.log(lastsList);
 }
 
 function setSongByFilename(filename) {
