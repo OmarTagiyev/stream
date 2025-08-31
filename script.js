@@ -27,12 +27,22 @@ const volume = document.querySelector("#volume");
 const songsData = await fetch("songs.json").catch(error => console.log(error));
 const list = await songsData.json();
 
-
 let globalAudio = new Audio();
 let lastsList = new Array(60);
 let progressBarAnim;
 let paused = false;
 let looped = false; // TODO
+let allowedGroups = {
+    "Ch1": false, // Chapter 1
+    "Ch2": false, // Chapter 2
+    "Ch3": false, // Chapter 3
+    "Ch4": false, // Chapter 4
+    "Ch5": false, // Chapter 5
+    "Ch6": false, // Chapter 6
+    "Ch7": false, // Chapter 7
+    "Hdn": false, // Hidden
+    "Wrd": false, // Weird Route
+};
 
 globalAudio.volume = volume.valueAsNumber;
 
@@ -41,6 +51,7 @@ function setSong(song) {
     globalAudio.src = `music/${song["filename"]}.mp3`;
     // globalAudio.preload = "metadata";
     globalAudio.load(); // Use the code above if doesn't work, Idk .-.
+    globalAudio.loop = true;
 
     curSong.textContent = song["title"];
 
@@ -149,13 +160,15 @@ volume.addEventListener("input", () => {
     globalAudio.volume = volume.valueAsNumber;
 });
 
-// Array.from(nav.children).forEach((li) => {
-//     li.addEventListener("click", () => {
-//         if (li.classList.contains("s")) {
-//             li.classList.remove("s");
-//         }
-//         else {
-//             li.classList.add("s");
-//         }
-//     });
-// });
+Array.from(nav.children).forEach((li) => {
+    li.addEventListener("click", () => {
+        if (li.classList.contains("selected")) {
+            li.classList.remove("selected");
+            allowedGroups[li.id] = false;
+        }
+        else {
+            li.classList.add("selected");
+            allowedGroups[li.id] = true;
+        }
+    });
+});
