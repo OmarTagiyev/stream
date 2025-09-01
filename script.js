@@ -9,12 +9,16 @@ TODO: Sequences
 
 // Getting references to everything 
 const main = document.querySelector("main");
-const progBar = document.querySelector(".progBar");
+const progBar = document.querySelector("main .progBar");
 const overlay = document.querySelector(".overlay");
 const curSong = document.querySelector(".curSong");
 const motifDisplay = document.querySelector(".motifs");
 const dykDisplay = document.querySelector(".dyk");
-const nav = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+const categoriesSection = nav.querySelector("section.categories");
+const colorSection = nav.querySelector("section.color");
+const clrLeft = document.querySelector("input[type=\"color\"]#progbar-clr-l")
+const clrRight = document.querySelector("input[type=\"color\"]#progbar-clr-r")
 
 const pauseBtn = document.querySelector("#pauseBtn");
 const newSongBtn = document.querySelector("#newSongBtn");
@@ -28,13 +32,13 @@ const songsData = await fetch("songs.json").catch(error => console.log(error));
 const list = await songsData.json();
 
 let globalAudio = new Audio();
-let lastsList = new Array(60);
+let lastsList = new Array(20);
 let progressBarAnim;
 let paused = false;
 let looped = false; // TODO
 let allowedGroups = {
-    "Ch1": false, // Chapter 1
-    "Ch2": false, // Chapter 2
+    "Ch1": true, // Chapter 1
+    "Ch2": true, // Chapter 2
     "Ch3": false, // Chapter 3
     "Ch4": false, // Chapter 4
     "Ch5": false, // Chapter 5
@@ -42,16 +46,29 @@ let allowedGroups = {
     "Ch7": false, // Chapter 7
     "Hdn": false, // Hidden
     "Wrd": false, // Weird Route
+
+    approvesOf: function(arr) {
+        for (let i of arr) {
+            if (!allowedGroups[i]) return false;
+        }
+
+        return true;
+    }
 };
+
+allowedGroups
 
 globalAudio.volume = volume.valueAsNumber;
 
 function setSong(song) {
+    if (progressBarAnim) { progressBarAnim.finish(); }
+    curSong.textContent = "Loading..."
+
     // Loading the song
     globalAudio.src = `music/${song["filename"]}.mp3`;
     // globalAudio.preload = "metadata";
     globalAudio.load(); // Use the code above if doesn't work, Idk .-.
-    globalAudio.loop = true;
+    // globalAudio.loop = true;
 
     curSong.textContent = song["title"];
 
@@ -102,7 +119,7 @@ function reroll() {
 function setRandomSong() {
     let randSong = list[reroll()];
 
-    while (lastsList.includes(randSong)) {
+    while (lastsList.includes(randSong) || !allowedGroups.approvesOf(randSong.group)) {
         randSong = list[reroll()];
     }
 
@@ -160,15 +177,50 @@ volume.addEventListener("input", () => {
     globalAudio.volume = volume.valueAsNumber;
 });
 
-Array.from(nav.children).forEach((li) => {
+Array.from(categoriesSection.querySelector("ul").children).forEach((li) => {
     li.addEventListener("click", () => {
-        if (li.classList.contains("selected")) {
-            li.classList.remove("selected");
+        if (li.classList.contains("s")) {
+            li.classList.remove("s");
             allowedGroups[li.id] = false;
         }
         else {
-            li.classList.add("selected");
+            li.classList.add("s");
             allowedGroups[li.id] = true;
         }
     });
+});
+
+optionsBtn.addEventListener("click", () => {
+    if (categoriesSection.style.display == "block") {
+        categoriesSection.style.display = "none"
+    }
+    else {
+        categoriesSection.style.display = "block"
+    }
+});
+
+Array.from(colorSection.querySelector("ul").children).forEach((li) => {
+    li.addEventListener("click", () => {
+        Array.from(colorSection.querySelector("ul").children).forEach((el) => {
+            el.classList.remove("s");
+        });
+
+        let colorspaces = ["rgb", "hsl-longer", "hsl-shorter", "lch", "oklch", "lab", "oklab"]
+
+        colorspaces.forEach((colorspace) => {
+            progBar.classList.remove(colorspace);
+        });
+
+        li.classList.add("s");
+
+        progBar.classList.add(li.id);
+    });
+});
+
+clrLeft.addEventListener("input", (e) => {
+    document.body.style.setProperty("--progbar-lbar-clr", e.target.value);
+});
+
+clrRight.addEventListener("input", (e) => {
+    document.body.style.setProperty("--progbar-rbar-clr", e.target.value);
 });

@@ -29,6 +29,11 @@ ul {
   list-style-type: none;
 }
 
+:root {
+  --progbar-lbar-clr: #37dd16;
+  --progbar-rbar-clr: #0870f8;
+}
+
 @keyframes pan {
   0% {
     background-position: 0 0;
@@ -40,28 +45,86 @@ ul {
 .motifs, .dyk {
   font-size: 1.2rem;
   mix-blend-mode: difference;
+  width: -moz-fit-content;
+  width: fit-content;
+  pointer-events: none;
 }
 
 nav {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 40px;
   border: 1px solid #fff;
   padding: 5px;
 }
-nav ul {
+nav section.categories {
+  display: none;
+}
+nav section.categories ul {
+  width: 100%;
+  height: 100%;
   display: flex;
   gap: 5px;
 }
-nav ul li img {
+nav section.categories ul li {
+  width: 26px;
+  height: 23px;
+}
+nav section.categories ul li img {
   width: 26px;
   image-rendering: pixelated;
 }
-nav ul li:not(.selected) img {
+nav section.categories ul li:not(.s) img {
   filter: brightness(50%);
 }
-nav ul li:not(.selected):hover img {
+nav section.categories ul li:not(.s):hover img {
   filter: brightness(75%);
+}
+nav section.color ul {
+  width: 100%;
+  height: 100%;
+}
+nav section.color ul li {
+  width: 200px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+nav section.color ul li p {
+  font-size: 1.8rem;
+  mix-blend-mode: difference;
+}
+nav section.color ul li#rgb {
+  background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#hsl-longer {
+  background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#hsl {
+  background: linear-gradient(to right in hsl, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#hsl-shorter {
+  background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#lch {
+  background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#lab {
+  background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#oklch {
+  background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li#oklab {
+  background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+nav section.color ul li:hover {
+  outline: 2px dashed #fff;
+}
+nav section.color ul li.s {
+  outline: 2px solid #fff;
+}
+nav section.color ul li:not(:first-child) {
+  margin-top: 5px;
 }
 
 main {
@@ -75,22 +138,40 @@ main {
   position: relative;
   padding: 10px;
   gap: 15px;
-  --progbar-lbar-clr: #37dd16;
-  --progbar-rbar-clr: #0870f8;
-  --progbar-dots-clr: #fff4;
 }
 main .progBar {
-  width: 100%;
+  position: absolute;
+  left: 0;
+  width: 100vw;
   height: 100%;
   background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
   background-size: 100vw;
-  position: absolute;
-  left: 0;
+}
+main .progBar.rgb {
+  background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.hsl-longer {
+  background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.hsl-shorter {
+  background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.lch {
+  background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.oklch {
+  background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.lab {
+  background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .progBar.oklab {
+  background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
 main .overlay {
   width: 100%;
   height: 100%;
-  background: radial-gradient(var(--progbar-dots-clr) 0% 50%, transparent 50%);
+  background: radial-gradient(rgba(255, 255, 255, 0.2666666667) 0% 50%, transparent 50%);
   background-size: 30px 30px;
   background-repeat: repeat;
   animation: pan 5s linear infinite;

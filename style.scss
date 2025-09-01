@@ -31,6 +31,14 @@ $overlay-h: 40px;
 
 $pattern-dot-size: 30px;
 
+$progbar-dots-clr: #fff4;
+
+
+:root {
+    --progbar-lbar-clr: #37dd16;
+    --progbar-rbar-clr: #0870f8;
+}
+
 @keyframes pan {
     0%   { background-position: 0                       0                      ; }
     100% { background-position: ($pattern-dot-size * 4) ($pattern-dot-size * 2); }
@@ -39,39 +47,112 @@ $pattern-dot-size: 30px;
 .motifs, .dyk {
     font-size: 1.2rem;
     mix-blend-mode: difference;
+    width: fit-content;
+    pointer-events: none;
 }
 
 nav {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 40px;
     // background: #444;
     border: 1px solid #fff;
     // border-radius: 10px 0 0 10px;
     padding: 5px;
     
-    ul {
-        display: flex;
-        gap: 5px;
+    section.categories {
+        display: none;
 
-        li {
-            img {
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            gap: 5px;
+
+            li {
                 width: 26px;
-                image-rendering: pixelated;
-            }
+                height: 23px;
 
-            $unselected-brightness: 50%;
-            $hover-brightness: 75%;
-
-            &:not(.selected) {
                 img {
-                    filter: brightness($unselected-brightness);
+                    width: 26px;
+                    image-rendering: pixelated;
+                }
+
+                $unselected-brightness: 50%;
+                $hover-brightness: 75%;
+
+                &:not(.s) {
+                    img {
+                        filter: brightness($unselected-brightness);
+                    }
+
+                    &:hover {
+                        img {
+                            filter: brightness($hover-brightness);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.color {
+        ul {
+            width: 100%;
+            height: 100%;
+
+            li {
+                width: 200px;
+                padding-left: 5px;
+                cursor: pointer;
+
+                p {
+                    font-size: 1.8rem;
+                    mix-blend-mode: difference;
+                }
+
+                &#rgb {
+                    background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#hsl-longer {
+                    background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#hsl {
+                    background: linear-gradient(to right in hsl, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#hsl-shorter {
+                    background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#lch {
+                    background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#lab {
+                    background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#oklch {
+                    background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+                }
+
+                &#oklab {
+                    background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
                 }
 
                 &:hover {
-                    img {
-                        filter: brightness($hover-brightness);
-                    }
+                    outline: 2px dashed #fff;
+                }
+
+                &.s {
+                    outline: 2px solid #fff;
+                }
+
+                &:not(:first-child) {
+                    margin-top: 5px;
                 }
             }
         }
@@ -90,12 +171,10 @@ main {
     padding: 10px;
     gap: 15px;
 
-    --progbar-lbar-clr: #37dd16;
-    --progbar-rbar-clr: #0870f8;
-    --progbar-dots-clr: #fff4;
-
     .progBar {
-        width: 100%;
+        position: absolute;
+        left: 0;
+        width: 100vw;
         height: 100%;
         background: linear-gradient(
             to right,
@@ -103,15 +182,21 @@ main {
             var(--progbar-rbar-clr)
         );
         background-size: 100vw;
-        position: absolute;
-        left: 0;
+
+        &.rgb { background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.hsl-longer { background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.hsl-shorter { background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.lch { background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.oklch { background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.lab { background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+        &.oklab { background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
     }
 
     .overlay {
         width: 100%;
         height: 100%;
         background: radial-gradient(
-            var(--progbar-dots-clr) 0% 50%,
+            $progbar-dots-clr 0% 50%,
             transparent 50%
         );
         background-size: $pattern-dot-size $pattern-dot-size;
