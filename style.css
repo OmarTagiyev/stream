@@ -80,50 +80,81 @@ nav section.categories ul li:not(.s) img {
 nav section.categories ul li:not(.s):hover img {
   filter: brightness(75%);
 }
-nav section.color ul {
-  width: 100%;
-  height: 100%;
+nav section.color {
+  width: 150px;
 }
-nav section.color ul li {
-  width: 200px;
+nav section.color #colorSelection {
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-wrap: nowrap;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+nav section.color #colorSelection input[type=color] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 20px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  background: none;
+  border: none;
+  outline: none;
+}
+nav section.color #colorSelection input[type=color]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+nav section.color #colorSelection input[type=color]:-webkit-color-swatch {
+  border: none;
+  outline: none;
+}
+nav section.color ul.colorspace {
+  width: 100%;
+}
+nav section.color ul.colorspace li {
+  width: 100%;
   padding-left: 5px;
   cursor: pointer;
 }
-nav section.color ul li p {
-  font-size: 1.8rem;
+nav section.color ul.colorspace li p {
+  font-size: 1.3rem;
   mix-blend-mode: difference;
 }
-nav section.color ul li#rgb {
+nav section.color ul.colorspace li#rgb {
   background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#hsl-longer {
+nav section.color ul.colorspace li#hsl-longer {
   background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#hsl {
+nav section.color ul.colorspace li#hsl {
   background: linear-gradient(to right in hsl, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#hsl-shorter {
+nav section.color ul.colorspace li#hsl-shorter {
   background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#lch {
+nav section.color ul.colorspace li#lch {
   background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#lab {
+nav section.color ul.colorspace li#lab {
   background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#oklch {
+nav section.color ul.colorspace li#oklch {
   background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li#oklab {
+nav section.color ul.colorspace li#oklab {
   background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
-nav section.color ul li:hover {
-  outline: 2px dashed #fff;
+nav section.color ul.colorspace li:hover {
+  outline: 1px dashed #fff;
 }
-nav section.color ul li.s {
-  outline: 2px solid #fff;
+nav section.color ul.colorspace li.s {
+  outline: 1px solid #fff;
 }
-nav section.color ul li:not(:first-child) {
+nav section.color ul.colorspace li:not(:first-child) {
   margin-top: 5px;
 }
 
