@@ -192,10 +192,14 @@ Array.from(categoriesSection.querySelector("ul").children).forEach((li) => {
 
 optionsBtn.addEventListener("click", () => {
     if (nav.style.display == "flex") {
-        nav.style.display = "none"
+        nav.style.display = "none";
+        motifDisplay.style.display = "block";
+        dykDisplay.style.display = "block";
     }
     else {
-        nav.style.display = "flex"
+        nav.style.display = "flex";
+        motifDisplay.style.display = "none";
+        dykDisplay.style.display = "none";
     }
 });
 
