@@ -191,11 +191,11 @@ Array.from(categoriesSection.querySelector("ul").children).forEach((li) => {
 });
 
 optionsBtn.addEventListener("click", () => {
-    if (categoriesSection.style.display == "block") {
-        categoriesSection.style.display = "none"
+    if (nav.style.display == "flex") {
+        nav.style.display = "none"
     }
     else {
-        categoriesSection.style.display = "block"
+        nav.style.display = "flex"
     }
 });
 

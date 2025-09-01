@@ -54,11 +54,15 @@ nav {
   position: absolute;
   right: 0;
   bottom: 40px;
+  display: none;
+  align-items: end;
+}
+nav section {
   border: 1px solid #fff;
   padding: 5px;
 }
-nav section.categories {
-  display: none;
+nav section.categories p {
+  font-size: 1.2rem;
 }
 nav section.categories ul {
   width: 100%;
