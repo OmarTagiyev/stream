@@ -118,6 +118,8 @@ function reroll() {
 }
 
 function setRandomSong() {
+    // if (allowedGroups.check())
+
     let randSong = list[reroll()];
 
     while (lastsList.includes(randSong) || !allowedGroups.approvesOf(randSong.group)) {

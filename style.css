@@ -204,7 +204,7 @@ main .progBar.oklab {
   background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
 }
 main .cover {
-  width: 100%;
+  width: 0%;
   height: 100%;
   position: absolute;
   right: 0;
