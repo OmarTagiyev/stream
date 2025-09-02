@@ -11,6 +11,7 @@ TODO: Sequences
 const main = document.querySelector("main");
 const progBar = document.querySelector("main .progBar");
 const overlay = document.querySelector(".overlay");
+const cover = document.querySelector(".cover");
 const curSong = document.querySelector(".curSong");
 const motifDisplay = document.querySelector(".motifs");
 const dykDisplay = document.querySelector(".dyk");
@@ -165,9 +166,9 @@ globalAudio.onended = () => {
 
 globalAudio.onloadedmetadata = () => {
     // Sets up an animation that can be played and paused later
-    progressBarAnim = progBar.animate([
-        { width: "0%" },
+    progressBarAnim = cover.animate([
         { width: "100%" },
+        { width: "0%" },
     ], globalAudio.duration * 1000);
 
     play();

@@ -55,8 +55,8 @@ nav {
     position: absolute;
     right: 0;
     bottom: 40px;
-    // display: flex;
-    display: none;
+    display: flex;
+    // display: none;
     align-items: end;
 
     // background: #444;
@@ -152,14 +152,14 @@ nav {
                     mix-blend-mode: difference;
                 }
 
-                &#rgb { background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#hsl-longer { background: linear-gradient(to right in hsl longer hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#hsl { background: linear-gradient(to right in hsl, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#rgb         { background: linear-gradient(to right                   , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#hsl-longer  { background: linear-gradient(to right in hsl longer hue , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#hsl         { background: linear-gradient(to right in hsl            , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
                 &#hsl-shorter { background: linear-gradient(to right in hsl shorter hue, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#lch { background: linear-gradient(to right in lch, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#lab { background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#oklch { background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
-                &#oklab { background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#lch         { background: linear-gradient(to right in lch            , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#lab         { background: linear-gradient(to right in lab            , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#oklch       { background: linear-gradient(to right in oklch          , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+                &#oklab       { background: linear-gradient(to right in oklab          , var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
 
                 &:hover {
                     outline: 1px dashed #fff;
@@ -208,6 +208,14 @@ main {
         &.oklch { background: linear-gradient(to right in oklch, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
         &.lab { background: linear-gradient(to right in lab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
         &.oklab { background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr)); }
+    }
+
+    .cover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        background: #000;
     }
 
     .overlay {

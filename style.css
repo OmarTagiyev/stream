@@ -54,7 +54,7 @@ nav {
   position: absolute;
   right: 0;
   bottom: 40px;
-  display: none;
+  display: flex;
   align-items: end;
 }
 nav section {
@@ -202,6 +202,13 @@ main .progBar.lab {
 }
 main .progBar.oklab {
   background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+}
+main .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: #000;
 }
 main .overlay {
   width: 100%;
