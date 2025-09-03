@@ -179,7 +179,7 @@ main .progBar {
   left: 0;
   width: 100vw;
   height: 100%;
-  background: linear-gradient(to right, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
+  background: linear-gradient(to right in oklab, var(--progbar-lbar-clr), var(--progbar-rbar-clr));
   background-size: 100vw;
 }
 main .progBar.rgb {
