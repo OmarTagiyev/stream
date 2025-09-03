@@ -48,7 +48,7 @@ let allowedGroups = {
     "Hdn": false, // Hidden
     "Wrd": false, // Weird Route
 
-    approvesOf: function(arr) {
+    approvesOf: function(arr) { // Checks if all tags in an array are true (turned on) in the group
         for (let i of arr) {
             if (!allowedGroups[i]) return false;
         }

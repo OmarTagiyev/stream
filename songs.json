@@ -518,7 +518,7 @@
         "group": ["Ch3"]
     },
     {
-        "title": "DELTARUNE Chapters 3+4 Soundtrack - Feature Presentation [FIX]",
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Feature Presentation",
         "filename": "tennaIntroF1_compressed_28",
         "motifs": ["Tenna", "HEY EVERY !", "Feature Presentation"],
         "group": ["Ch3"]
@@ -544,12 +544,6 @@
     {
         "title": "DELTARUNE Chapters 3+4 Soundtrack - Adventure Board",
         "filename": "board_zelda",
-        "motifs": ["Tenna"],
-        "group": ["Ch3"]
-    },
-    {
-        "title": "DELTARUNE Chapters 3+4 Soundtrack - Query? [FIX]",
-        "filename": "none",
         "motifs": ["Tenna"],
         "group": ["Ch3"]
     },
@@ -580,12 +574,6 @@
     {
         "title": "DELTARUNE Chapters 3+4 Soundtrack - Physical Challenge",
         "filename": "minigame_kart",
-        "motifs": ["Tenna"],
-        "group": ["Ch3"]
-    },
-    {
-        "title": "DELTARUNE Chapters 3+4 Soundtrack - Board Clear!",
-        "filename": "snd_nes_intro",
         "motifs": ["Tenna"],
         "group": ["Ch3"]
     },
@@ -635,12 +623,6 @@
         "title": "DELTARUNE Chapters 3+4 Soundtrack - KING OF ROLYPOLY",
         "filename": "trank",
         "motifs": [],
-        "group": ["Ch3"]
-    },
-    {
-        "title": "DELTARUNE Chapters 3+4 Soundtrack - Glowing Snow [!]",
-        "filename": "tv_results_screen",
-        "motifs": ["Uwa!! So"],
         "group": ["Ch3"]
     },
     {
@@ -904,6 +886,12 @@
         "group": ["Ch4"]
     },
     {
+        "title": "DELTARUNE Chapters 3+4 Soundtrack - Ripple",
+        "filename": "ripple_combined",
+        "motifs": [],
+        "group": ["Ch4"]
+    },
+    {
         "title": "DELTARUNE Chapters 3+4 Soundtrack - 13am",
         "filename": "tin_night",
         "motifs": [],
@@ -1007,12 +995,6 @@
         "title": "DELTARUNE Chapters 3+4 Soundtrack - AIRWAVES",
         "filename": "spamton_dance",
         "motifs": ["Spamton", "Freedom"],
-        "group": ["Ch4"]
-    },
-    {
-        "title": "DELTARUNE Chapters 3+4 Soundtrack - Concert for you",
-        "filename": "snd_pianonoise",
-        "motifs": [],
         "group": ["Ch4"]
     },
 
@@ -1255,6 +1237,12 @@
     {
         "title": "DELTARUNE Weird Route Soundtrack - sinedrone_danger_high.ogg",
         "filename": "sinedrone_danger_high",
+        "motifs": [],
+        "group": ["Wrd", "Ch4"]
+    },
+    {
+        "title": "DELTARUNE Weird Route Soundtrack - sinedrone_danger.ogg",
+        "filename": "sinedrone_danger",
         "motifs": [],
         "group": ["Wrd", "Ch4"]
     },
