@@ -244,11 +244,14 @@ input#volume {
           appearance: none;
   width: 100%;
   background: transparent;
-  cursor: pointer;
+  cursor: grab;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 3;
+}
+input#volume:active {
+  cursor: grabbing;
 }
 input#volume::-webkit-slider-runnable-track {
   -webkit-appearance: none;

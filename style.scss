@@ -255,11 +255,15 @@ input#volume {
     appearance: none;
     width: 100%;
     background: transparent;
-    cursor: pointer;
+    cursor: grab;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 3;
+
+    &:active {
+        cursor: grabbing;
+    }
     
     &::-webkit-slider-runnable-track {
         appearance: none;
