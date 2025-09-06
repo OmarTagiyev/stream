@@ -54,7 +54,7 @@ nav {
   position: absolute;
   right: 0;
   bottom: 40px;
-  display: flex;
+  display: none;
   align-items: end;
 }
 nav section {
@@ -244,14 +244,10 @@ input#volume {
           appearance: none;
   width: 100%;
   background: transparent;
-  cursor: grab;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 3;
-}
-input#volume:active {
-  cursor: grabbing;
 }
 input#volume::-webkit-slider-runnable-track {
   -webkit-appearance: none;
@@ -260,6 +256,9 @@ input#volume::-webkit-slider-runnable-track {
           backdrop-filter: invert(1);
   height: 1px;
 }
+input#volume::-webkit-slider-runnable-track:active {
+  cursor: grabbing;
+}
 input#volume::-webkit-slider-thumb {
   -webkit-appearance: none;
           appearance: none;
@@ -267,4 +266,5 @@ input#volume::-webkit-slider-thumb {
   height: 10px;
   background: #fff;
   transform: translateY(-50%) rotate(45deg);
+  cursor: grab;
 }/*# sourceMappingURL=style.css.map */

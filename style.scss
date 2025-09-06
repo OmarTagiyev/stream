@@ -55,8 +55,8 @@ nav {
     position: absolute;
     right: 0;
     bottom: 40px;
-    display: flex;
-    // display: none;
+    // display: flex;
+    display: none;
     align-items: end;
 
     // background: #444;
@@ -255,27 +255,27 @@ input#volume {
     appearance: none;
     width: 100%;
     background: transparent;
-    cursor: grab;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 3;
-
-    &:active {
-        cursor: grabbing;
-    }
     
     &::-webkit-slider-runnable-track {
         appearance: none;
         backdrop-filter: invert(1);
         height: 1px;
+        
+        &:active {
+            cursor: grabbing;
+        }
     }
-
+    
     &::-webkit-slider-thumb {
         appearance: none;
         width: 10px;
         height: 10px;
         background: #fff;
         transform: translateY(-50%) rotate(45deg);
+        cursor: grab;
     }
 }
