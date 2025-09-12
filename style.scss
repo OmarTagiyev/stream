@@ -89,9 +89,10 @@ nav {
                 }
 
                 $unselected-brightness: 50%;
+                $disabled-brightness: 25%;
                 $hover-brightness: 75%;
 
-                &:not(.s) {
+                &:not(.s):not([disabled]) {
                     img {
                         filter: brightness($unselected-brightness);
                     }
@@ -100,6 +101,12 @@ nav {
                         img {
                             filter: brightness($hover-brightness);
                         }
+                    }
+                }
+
+                &[disabled] {
+                    img {
+                        filter: brightness($disabled-brightness);
                     }
                 }
             }

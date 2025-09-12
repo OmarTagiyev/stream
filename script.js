@@ -182,6 +182,8 @@ volume.addEventListener("input", () => {
 
 Array.from(categoriesSection.querySelector("ul").children).forEach((li) => {
     li.addEventListener("click", () => {
+        if (li.getAttribute("disabled") != null) return;
+
         if (li.classList.contains("s")) {
             li.classList.remove("s");
             allowedGroups[li.id] = false;

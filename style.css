@@ -78,11 +78,14 @@ nav section.categories ul li img {
   width: 26px;
   image-rendering: pixelated;
 }
-nav section.categories ul li:not(.s) img {
+nav section.categories ul li:not(.s):not([disabled]) img {
   filter: brightness(50%);
 }
-nav section.categories ul li:not(.s):hover img {
+nav section.categories ul li:not(.s):not([disabled]):hover img {
   filter: brightness(75%);
+}
+nav section.categories ul li[disabled] img {
+  filter: brightness(25%);
 }
 nav section.color {
   width: 150px;
