@@ -44,6 +44,11 @@ $progbar-dots-clr: #fff4;
     100% { background-position: ($pattern-dot-size * 4) ($pattern-dot-size * 2); }
 }
 
+@keyframes loop {
+    0%   { transform: rotate(0deg);   }
+    100% { transform: rotate(360deg); }
+}
+
 .motifs, .dyk {
     font-size: 1.2rem;
     mix-blend-mode: difference;
@@ -247,6 +252,7 @@ main {
         display: flex;
         align-items: center;
         width: fill;
+        text-wrap: nowrap;
     }
 
     button {
@@ -255,6 +261,13 @@ main {
         background: none;
         color: #eee;
         cursor: pointer;
+    }
+
+    #repeatBtn {
+        i {
+            animation: loop 5s linear forwards infinite;
+            animation-play-state: paused;
+        }
     }
 }
 

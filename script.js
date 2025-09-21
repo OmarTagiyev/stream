@@ -23,7 +23,6 @@ const clrRight = document.querySelector("input[type=\"color\"]#progbar-clr-r")
 
 const pauseBtn = document.querySelector("#pauseBtn");
 const newSongBtn = document.querySelector("#newSongBtn");
-const repeatBtn = document.querySelector("#repeatBtn");
 const optionsBtn = document.querySelector("#optionsBtn");
 
 const volume = document.querySelector("#volume");
@@ -36,7 +35,6 @@ let globalAudio = new Audio();
 let lastsList = new Array(20);
 let progressBarAnim;
 let paused = false;
-let looped = false; // TODO
 let allowedGroups = {
     "Ch1": true, // Chapter 1
     "Ch2": true, // Chapter 2
@@ -172,7 +170,7 @@ globalAudio.onloadedmetadata = () => {
         { width: "100%" },
         { width: "0%" },
     ], globalAudio.duration * 1000);
-
+    
     play();
 };
 

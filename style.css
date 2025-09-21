@@ -42,6 +42,14 @@ ul {
     background-position: 120px 60px;
   }
 }
+@keyframes loop {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .motifs, .dyk {
   font-size: 1.2rem;
   mix-blend-mode: difference;
@@ -232,6 +240,7 @@ main .curSong {
   width: -webkit-fill-available;
   width: -moz-available;
   width: fill;
+  text-wrap: nowrap;
 }
 main button {
   height: 100%;
@@ -239,6 +248,10 @@ main button {
   background: none;
   color: #eee;
   cursor: pointer;
+}
+main #repeatBtn i {
+  animation: loop 5s linear forwards infinite;
+  animation-play-state: paused;
 }
 
 input#volume {
